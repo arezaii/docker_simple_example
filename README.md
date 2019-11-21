@@ -1,2 +1,2 @@
-# docker_simple_example
-Simple docker example
+# Simple Docker Example
+An example of using a docker file to create reproducible experiments
