@@ -11,6 +11,7 @@ docker build -t water_data .
 ```
 docker images
 ```
+you should see a repository in the list named _water_data_
 
 # View the example data
 
@@ -34,4 +35,4 @@ The token will be unique and generated every time the container is launched.
 
 # Open the notebook
 
-Once the web page is loaded, click on the hydrograph_example.ipynb file to load the notebook
+Once the web page is loaded, click on the _hydrograph_example.ipynb_ file to load the notebook
