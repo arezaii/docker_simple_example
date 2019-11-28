@@ -1,11 +1,7 @@
-# Use the latest ubuntu image as base for the new image
-# ubuntu is the image name and latest is a tag that 
-# references a particular version of the image.
-# In this case latest is always the latest LTS image
-# at the time of writing this, it's 16.04.
+# Ubuntu base
 FROM ubuntu:latest
 
-# Run a system update to get it up to speed
+# Update Ubuntu
 # Then install python3 and pip3
 RUN apt-get update && apt-get install -y python3 \
     python3-pip
