@@ -1,5 +1,5 @@
 # Ubuntu base
-FROM ubuntu:latest
+FROM ubuntu:18.04
 
 # Update Ubuntu
 # Then install python3 and pip3
